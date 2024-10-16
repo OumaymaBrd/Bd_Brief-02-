@@ -218,51 +218,45 @@ h1 {
   background-color: #d6d6d6;
 }
 
-/* Events Grid */
-.events-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 cartes par ligne */
-  gap: 20px;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+
 
 /* Gestion responsive */
 @media (max-width: 900px) {
   .events-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 cartes par ligne sur écran moyen */
+    grid-template-columns: repeat(2, 150px); /* 2 cartes par ligne sur écran moyen */
   }
 }
 
 @media (max-width: 300px) {
   .events-grid {
-    grid-template-columns: 1fr; /* 1 carte par ligne sur petit écran */
+    grid-template-columns: 180px; /* 1 carte par ligne sur petit écran */
   }
 }
 
 /*  */
 /* Conteneur de la carte */
 
-.test{
+.Global_card{
     display:flex;
+    justify-content: center;
+    gap:0.75px;
 }
-.card1 {
+.card {
     display: flex;
-    
     padding: 20px;
   }
   
   /* Carte événement */
   .event-card {
-    width: 350px; /* Largeur de la carte */
-    background-color: white;
-    border-radius: 15px; /* Coins arrondis */
-    overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre légère */
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
+            width: 290px;
+            height: 335px;
+            background-color: white;
+            border-radius: mixed; 
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+            transition: transform 0.3s, box-shadow 0.3s;
+}                                                                            
+  /* effets */
   .event-card:hover {
     transform: translateY(-5px); /* Légère translation vers le haut au survol */
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15); /* Ombre plus marquée */
@@ -272,14 +266,13 @@ h1 {
   .event-card img {
     width: 100%;
     height: 200px;
-    object-fit: cover; /* L'image remplit bien la carte */
     border-top-left-radius: 15px; /* Arrondi en haut à gauche */
     border-top-right-radius: 15px; /* Arrondi en haut à droite */
   }
   
   /* Contenu de la carte */
   .event-info {
-    padding: 15px;
+    padding: 5%;
   }
   
   /* Date de l'événement */
@@ -297,14 +290,14 @@ h1 {
     margin: 5px 0 10px;
     color: #333;
     font-weight: 600;
-    line-height: 1.4;
+    line-height: 1.3;
   }
   
   /* Description de l'événement */
   .event-info p {
     font-size: 0.9rem;
     color: #666;
-    line-height: 1.5;
+    line-height: 1.3;
   }
   
 
