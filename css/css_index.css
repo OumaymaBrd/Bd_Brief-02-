@@ -155,8 +155,9 @@ nav {
 /* Partie 2 */
 .box2{
     background: white;
-    width: 800px;
-    height: 100vh;
+    width: 400px;
+    height: 90vh;
+    
 }
 
 /* style box2 */
@@ -379,4 +380,9 @@ h1 {
 
 .box2{
     background-color: inherit;
+}
+
+.form_group{
+    margin-top:80px;
+    
 }
