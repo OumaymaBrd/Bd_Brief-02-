@@ -146,7 +146,7 @@
   /* div2 */
   .form_group{
      position: absolute;
-     top: 77%;
+     top: 90%;
       width:1086px;
       height:140px;
       background-color:#242565;
@@ -189,14 +189,7 @@
      height:20px;
      
   }
-  
-  /*  */
-  /* Global Styles */
-  
-  
-  
-  
-  
+ 
   h1 {
     text-align: center;
     margin-top: 20px;
@@ -209,7 +202,9 @@
     display: flex;
     justify-content: center;
     gap: 10px;
-    margin: 20px 0;
+    margin: 85px 0;
+    
+    
   }
   
   .filters button {
