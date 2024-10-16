@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventick - Ticket Package</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5b0bc9;
+  color: white;
+  padding: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.login-btn {
+  background-color: white;
+  color: #5b0bc9;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #a755e4, #6933a5);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  color: white;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-image {
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.text-content h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.primary-btn {
+  background-color: #ff4669;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 18px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* Search Bar */
+.search-bar {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar input, .search-bar select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+}
+
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">🎫 Eventick</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Speakers</a>
+      <a href="#">About</a>
+      <button class="login-btn">Login</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="content">
+      <img src="../images/background.png" alt="Kpop Group" class="hero-image">
+      <div class="text-content">
+        <h1>SBS MTV The Kpop Show Ticket Package</h1>
+        <p>Look no further! Our SBS The Show tickets are the simplest way for you to experience a live Kpop recording.</p>
+        <div class="buttons">
+          <button class="primary-btn">Get Ticket</button>
+          <button class="secondary-btn">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="search-bar">
+      <input type="text" placeholder="Search Event" />
+      <input type="text" placeholder="Place" />
+      <select>
+        <option>Any date</option>
+        <option>Today</option>
+        <option>Tomorrow</option>
+      </select>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,382 @@
+header{
+    background:url(../images/wallpaper.jpg);
+}
+
+.menu{
+    display:flex;
+    list-style-type:none;
+    gap:50px;
+    margin-left:65%;
+
+}
+
+a{
+   
+    color:white;
+    text-decoration:none;
+    
+}
+
+li button{
+    border-radius: 50px;
+    font-weight:50px;
+    opacity:100%;
+    background-color: #FFFFFF;
+    /* color:#FFFFFF; */
+    cursor: pointer;
+    width: 113.62px;
+    display: inline-block;
+    height: 41px;
+}
+
+.btn{
+    background-color: inherit;
+    /* border-color:white; */
+    border:solid 2px white;
+    
+
+}
+
+.logo{
+    margin-bottom:15px;
+    
+}
+
+ul{
+    display:flex;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    
+}
+
+/* Logo */
+.logo img {
+    height: 50px; 
+    margin-left:150px;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Liens du menu */
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 5px;
+}
+
+/* Bouton Login */
+.btn {
+   
+    color: white;
+    border: solid 2px white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top:-10px;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.center_page{
+    margin-left:800px;
+    margin-top:138px;
+}
+
+.prinipale_paragraphe {
+    font-family: 'Proxima Nova', sans-serif; /* Remplacez par une alternative si la police n'est pas chargée */
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48.72px;
+    color:white;
+}
+.Second_paragraphe{
+    color:white;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: -5;
+    line-height: 23.4px;
+}
+.btn1{
+    width:182px;
+    height:60px;
+    border: #F5167E;
+    border-radius:  50px;
+    background-color:  #F5167E;
+    color:white;
+    
+}
+.btn2{
+    width:182px;
+    height:60px;
+    border: solid white;
+    border-radius:  50px;
+    background-color: inherit;
+    color:white;
+    
+}
+
+.img_logo{
+    width:152.75px;
+    height:38.56px;
+   
+    margin-left:25px;
+}
+
+/* div2 */
+.form_group{
+    width:1086px;
+    height:140px;
+    background-color:#242565;
+    border-radius: 20px;
+    margin-left:10%;
+    /* margin-bottom:80px; */
+    color:white;
+    
+}
+
+
+/* Partie 2 */
+.box2{
+    background: white;
+    width: 800px;
+    height: 100vh;
+}
+
+/* style box2 */
+
+ul li{
+    list-style: none;
+
+}
+#element1{
+    font-weight: bold;
+    font-family: Proxima Nova;
+    color:#242565;
+    
+}
+
+select{
+   color:#1D275F; 
+   background-color: #F2F4FF;
+   font-family: DM Sans;
+   font-weight: Medium;
+   font-size: 14px;
+   border-radius: 50px;
+   height:20px;
+   
+}
+
+/*  */
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #1a1a1a;
+}
+
+/* Filters Section */
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.filters button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #d6d6d6;
+}
+
+/* Events Grid */
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Event Card */
+.event-card {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-info {
+  padding: 15px;
+}
+
+.event-date {
+  display: block;
+  font-weight: bold;
+  color: #6c63ff;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.event-info h2 {
+  font-size: 1.2rem;
+  margin: 5px 0 10px;
+  color: #333;
+}
+
+.event-info p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/*  */
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #1a1a1a;
+}
+
+/* Filters Section */
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.filters button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #d6d6d6;
+}
+
+/* Events Grid */
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cartes par ligne */
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Gestion responsive */
+@media (max-width: 900px) {
+  .events-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cartes par ligne sur écran moyen */
+  }
+}
+
+@media (max-width: 600px) {
+  .events-grid {
+    grid-template-columns: 1fr; /* 1 carte par ligne sur petit écran */
+  }
+}
+
+/* Event Card */
+.event-card {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-info {
+  padding: 15px;
+}
+
+.event-date {
+  display: block;
+  font-weight: bold;
+  color: #6c63ff;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.event-info h2 {
+  font-size: 1.2rem;
+  margin: 5px 0 10px;
+  color: #333;
+}
+
+.event-info p {
+  font-size: 0.9rem;
+  color: #666;
+}
+/*  */
+
+.bod{
+    width: 100%;
+    height:500px;
+    background-color: white;
+}
+
+.box2{
+    background-color: inherit;
+}
