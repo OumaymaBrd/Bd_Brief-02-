@@ -109,3 +109,24 @@ li button{
   left:140px;
 
 }
+
+
+/* style les cards sur la  2 eme partie */
+
+.cards{
+  display:flex;
+  justify-content: space-around;
+}
+.description_card{
+  font-weight: bold;
+  font-family: DM Sans;
+}
+
+#nom_page2{
+  position: relative;
+  left:38%;
+}
+#card2{
+  position: relative;
+  top:5.8px;
+}
