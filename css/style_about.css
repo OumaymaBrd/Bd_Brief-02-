@@ -1,3 +1,37 @@
 .welcome{
-    position:relative; left:102%; bottom:80px;
+    position:relative;
+     left:130%; 
+     bottom:123px;
 }
+
+.paragrah_who{
+    display: flex; 
+    align-items: center;
+     position: relative;
+    margin-left: 150px;
+    margin-top: 40px;
+    color:white;
+    font-weight: bold;
+}
+
+.org_speakers {
+    background-color: rgba(255, 133, 187, 0.3); 
+    width: 498px;
+    height: 138px;
+    
+    position: relative;
+    left: 25%;
+    top:6%;
+    border-radius: 30px;
+  }
+  .cnt_speak1{
+    color:white;
+    position: relative;
+    left:18px;
+    top:15px;
+    bottom:2px;
+    font-weight: 20px;
+    
+    
+  }
+    

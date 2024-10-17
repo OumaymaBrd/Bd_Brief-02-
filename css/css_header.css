@@ -50,26 +50,26 @@ li button{
     right:450px;
     
 }
-.org_speakers {
-    background-color: rgba(255, 133, 187, 0.2); /* Rose avec 20% d'opacité */
+/* .org_speakers {
+    background-color: rgba(255, 133, 187, 0.2); 
     width: 579px;
     height: 280px;
-    /* text-align: center; */
+   
     position: relative;
     left: 30%;
     top:15%;
     border-radius: 30px;
-  }
+  } */
 
   .cnt_speak{
     color:white;
     
   }
-  .cnt_speak1{
+  /* .cnt_speak1{
     color:white;
     position: relative;
     left:50px;
     top:15px;
     bottom:2px;
-  }
+  } */
     
