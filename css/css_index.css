@@ -379,6 +379,7 @@
   .footer {
     background-color: #0b0b45;
     padding: 50px 0;
+    color:white;
   }
   
   .footer-container {
@@ -400,9 +401,6 @@
     font-weight: bold;
   }
   
-  .footer-logo span {
-    color: #00bfff;
-  }
   
   .social-icons a {
     margin-right: 10px;
