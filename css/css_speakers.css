@@ -9,7 +9,7 @@
    gap:12px;
 }
 .contenu{
-  height:80vh;
+  height:100vh;
   background-image: url("../images/bakground_speakers.png");
   background-size: cover;
   position: relative;
@@ -60,7 +60,8 @@ li button{
   height: 280px;
   /* text-align: center; */
   position: relative;
-  left: 14%;
+  left: 30%;
+  top:15%;
   border-radius: 30px;
 }
 
@@ -102,11 +103,13 @@ li button{
   color:white;
   position: relative;
   left:150px;
+  top:5%;
 }
 #sbs{
   color:white;
   position: relative;
   left:140px;
+  top:10%;
 
 }
 
@@ -129,4 +132,33 @@ li button{
 #card2{
   position: relative;
   top:5.8px;
+}
+
+.gard_fin_page_p2{
+  background-color: #5522CC;
+  width:100%;
+  height:29px;
+
+}
+
+
+.p3{
+ 
+  position: relative;
+  left:23%;
+
+}
+.pA{
+  position: relative;
+  left:1.5%;
+  font-weight: bold;
+}
+.icon_team{
+  position: relative;
+  left:25px;
+  top:18px;
+}
+#p2{
+  position:relative;
+  bottom:12px;
 }
