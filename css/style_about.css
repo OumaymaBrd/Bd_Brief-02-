@@ -31,7 +31,9 @@
     top:15px;
     bottom:2px;
     font-weight: 20px;
-    
-    
+  }
+  /*  */
+  .boxe{
+    display: flex;
   }
     
