@@ -1,0 +1,75 @@
+.menu{
+    display:flex;
+    list-style: none;
+    justify-content: flex-end;
+    position:relative;
+    right:120px;
+    top:12px;
+   gap:12px;
+}
+.contenu{
+  height:100vh;
+  background-image: url("../images/bakground_speakers.png");
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+  
+  
+  a{
+     
+    color:white;
+    text-decoration:none;
+    
+}
+
+li button{
+    border-radius: 50px;
+    font-weight:50px;
+    opacity:100%;
+    background-color: #FFFFFF;
+    /* color:#FFFFFF; */
+    cursor: pointer;
+    width: 113.62px;
+    display: inline-block;
+    height: 41px;
+}
+
+.btn{
+    background-color: inherit;
+    /* border-color:white; */
+    border:solid 2px white;
+    
+
+}
+
+.logo{
+    margin-bottom:15px;
+    position:relative;
+    right:450px;
+    
+}
+.org_speakers {
+    background-color: rgba(255, 133, 187, 0.2); /* Rose avec 20% d'opacité */
+    width: 579px;
+    height: 280px;
+    /* text-align: center; */
+    position: relative;
+    left: 30%;
+    top:15%;
+    border-radius: 30px;
+  }
+
+  .cnt_speak{
+    color:white;
+    
+  }
+  .cnt_speak1{
+    color:white;
+    position: relative;
+    left:50px;
+    top:15px;
+    bottom:2px;
+  }
+    
