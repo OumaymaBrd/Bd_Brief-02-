@@ -6,8 +6,32 @@
     <title>Eventick Login</title>
     <link rel="stylesheet" href="../css/css_login.css">
     <link rel="stylesheet" href="../css/footer_style.css">
+    <link rel="stylesheet" href="../css/css_header.css">
 </head>
 <body>
+
+    <!--  -->
+    <header>
+        <div class="contenu">
+            <nav>
+                
+                <ul class="menu">
+                    <li class="logo"> <img src="../images/logo.png" class="img_logo" alt="Logo"></li>
+                    <li ><button class="btn"><a href="Home" style="position:relative; bottom:7px;">Home</a></button></li>
+                    <li><button class="btn"><a href="Speakers" style="position:relative; bottom:7px;">Speakers</a></button></li>
+                    <li><button class="btn"><a href="Speakers" style="position:relative; bottom:7px;">About</a></button></li>
+                    <li><button class="btn"><a href="Login" style="position:relative; bottom:7px;">Login</a></button></li>
+                </ul>
+            </nav>
+
+            <h1 style="color:white;  font-weight: bold; font-size: 64px; position: relative; left:6%; top:20%;">Connectez-vous <br> avec Eventick</h1>
+            <div   style=" position:relative; left:700px; bottom:180px;">  <img src="../images/Onboarding.png" alt=""></div>
+           
+
+</header>
+
+
+    <!--  -->
    
     <div class="box">
         <div class="div1">
@@ -15,7 +39,7 @@
         </div>
     
         <div class="div2">
-            <h2>Welcome to <br><span>Eventick</span></h2>
+            <h2 >Welcome to <br><span>Eventick</span></h2>
             
             <form class="login-form">
                 <!-- Email Input -->
@@ -23,7 +47,7 @@
                     <div class="icon">
                         <img src="../images/Vector.png" alt="Mail Icon">
                     </div>
-                    <div class="input-group">
+                    <div class="input-group" style="width: 600px;">
                         <label for="email">Email</label>
                         <input type="email" id="email" value="example@gmail.com" readonly>
                     </div>
@@ -31,12 +55,12 @@
     
                 <!-- Password Input -->
                 <div class="input-container">
-                    <div class="icon">
+                    <div class="icon" style="margin-left: 5px;">
                         <img src="../images/cler.png" alt="Key Icon">
                     </div>
                     <div class="input-group">
                         <label for="password">Password</label>
-                        <input type="password" id="password" value="**********" readonly>
+                        <input type="text" id="password" value="*********" readonly>
                     </div>
                 </div>
     
