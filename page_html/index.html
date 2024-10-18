@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="../css/footer_style.css">
 </head>
 <body>
-    
-    
+   
     <header>
 <!-- nav -->
 <div class="contenu">
@@ -40,25 +39,28 @@
    
 
     <!-- Small form -->
-    <div class="form_group" style=" background-color:#242565;" >
+    <div class="search-container" style=" background-color:#242565; " >
             
-        <div class="form_label" >
-            <label for="search_event">Search Event</label>
-            <input type="text" id="search_event" name="search_event"><br>
-    
+        <div class="search-field">
+            <label for="event">Search Event</label>
+            <input type="text" id="event" placeholder="Konser Jazz">
+          </div>
+          <div class="search-field">
             <label for="place">Place</label>
-            <input type="text" id="place" name="place"><br>
-    
-            <label for="time">Time</label>
-            <input type="time" id="time" name="time"><br>
-        </div>
-    
-        <div class="form_submit">
-            <input type="submit" value="Konser Jazz">
-            <input type="submit" value="Indonesia">
-            <select name="date" id="date">
-                <option value="">Any date</option>
-            </select>
+            <input type="text" id="place" placeholder="Indonesia">
+          </div>
+          <div class="search-field" style="width:80px ;">
+            <!-- <label for="time" >Time</label>
+            <select id="time" >
+              <option value="any" style="position:relative; top:12px; width: 80px;">Any date</option>
+              <option value="today">Today</option>
+              <option value="tomorrow">Tomorrow</option>
+            </select> -->
+            <div class="search-field">
+                <label for="place">Time</label>
+                <input type="text" id="place" placeholder="Any date">
+              </div>
+          </div>
         </div>
    
         </div>
