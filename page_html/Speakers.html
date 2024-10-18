@@ -7,6 +7,28 @@
     <link rel="stylesheet" href="../css/footer_style.css">
     <link rel="stylesheet" href="../css/css_speakers.css">
     <link rel="stylesheet" href="../css/css_header.css">
+    <style>
+      .org_speakers {
+    background-color: rgba(255, 133, 187, 0.2); 
+    width: 579px;
+    height: 280px;
+   
+    position: relative;
+    left: 30%;
+    top:15%;
+    border-radius: 30px;
+  }
+
+  .cnt_speak1{
+    color:white;
+    position: relative;
+    left:50px;
+    top:15px;
+    bottom:2px;
+  } 
+    
+
+    </style>
 </head>
 <body>
     
@@ -15,13 +37,12 @@
         <div class="contenu">
             <nav>
                 
-                <ul class="menu">
-                    <li class="logo"> <img src="../images/logo.png" class="img_logo" alt="Logo"></li>
-                    <li><button class="btn"><a href="Home">Home</a></button></li>
-                    <li><button class="btn"><a href="Speakers">Speakers</a></button></li>
-                    <li><button class="btn"><a href="Speakers">About</a></button></li>
-                    <li><button class="btn"><a href="Login">Login</a></button></li>
-                </ul>
+              <ul class="menu">
+                <li><button class="btn"><a href="../page_html/index.html">Home</a></button></li>
+                <li><button class="btn"><a href="../page_html/Speakers.html">Speakers</a></button></li>
+                <li><button class="btn"><a href="../page_html/About.html">About</a></button></li>
+                <li><button class="btn"><a href="../page_html/login.html">Login</a></button></li>
+            </ul>
             </nav>
             <h1 id="Bienvenue">Bienvenue aux Speakers</h1>
             <p id="sbs">SBS MTV The Kpop Show - Ticket Package</p>
@@ -77,8 +98,8 @@ Voici quelques détails concernant le <br> package de billets :
        <p id="p2" class="pA"> Ensemble, restons connectés <img  class="icon_team"src="../images/icon_team.png" width="64px;" alt=""> </p>
         
        <p class="pA"> Ensemble, faisons de cet événement un véritable succès !</p>
-     <p class="p3">  Pour rester En Contact , suivez le lien <img src="../images/icon_lien.png" alt="">: instagram.com</p>
-
+     <p class="p3">  Pour rester En Contact , suivez le lien <img src="../images/icon_lien.png"  style="position:relative; top:7px;" alt="lien de instagram pour la crrer ou ca de vouler acceder group Kpoop">:  <a href="https://www.instagram.com/mmskpop.fr/" style="color:rgb(0, 0, 0);"> <span style="color:rgb(63, 20, 161); font-weight: bold;">Click ici</span></a> </p>
+      
      <div style="color:white; height:80px;"></div>
     </div>
 
@@ -87,59 +108,60 @@ Voici quelques détails concernant le <br> package de billets :
 
 
     <!-- footer -->
-    <footer class="footer">
-        <div class="footer-container">
-          <div class="footer-section">
-            <h2 class="footer-logo">Event<span>tick</span></h2>
-            <p>
-              Eventick is a global self-service ticketing platform for live experiences 
-              that allows anyone to create, share, find and attend events that fuel 
-              their passions and enrich their lives.
-            </p>
-            <div class="social-icons">
-              <a href="#"><img src="../images/facebook.png" alt="Facebook"></a>
-              <a href="#"><img src="../images/twiter.png" alt="Twitter"></a>
-              <a href="#"><img src="../images/linkden.png" alt="LinkedIn"></a>
-            </div>
-          </div>
-    
-          <div class="footer-section">
-            <h3>Plan Events</h3>
-            <ul>
-              <li><a href="#">Create and Set Up</a></li>
-              <li><a href="#">Sell Tickets</a></li>
-              <li><a href="#">Online RSVP</a></li>
-              <li><a href="#">Online Events</a></li>
-            </ul>
-          </div>
-    
-          <div class="footer-section">
-            <h3>Eventick</h3>
-            <ul >
-              <li><a href="#">About Us</a></li> 
-              <li><a href="#">Press</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Help Center</a></li>
-              <li><a href="#">How it Works</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Terms</a></li>
-            </ul>
-          </div>
-    
-          <div class="footer-section">
-            <h3>Stay In The Loop</h3>
-            <p>Join our mailing list to stay in the loop with our newest for Event and concert</p>
-            <form action="#">
-              <input type="email" placeholder="Enter your email address.." required>
-              <button type="submit">Subscribe Now</button>
-            </form>
+    <footer class="footer" style="position:relative; top:28px;">
+      <div class="footer-container">
+        <div class="footer-section">
+        <h2 class="footer-logo">   <img src="../images/ticket.png" alt=""><span style="position:relative; top:-6px;">Event<span style=>ick</span> </span></h2>
+          <p>
+            Eventick is a global self-service ticketing platform for live experiences 
+            that allows anyone to create, share, find and attend events that fuel 
+            their passions and enrich their lives.
+          </p>
+          <div class="social-icons">
+            <a href="#"><img src="../images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="../images/twiter.png" alt="Twitter"></a>
+            <a href="#"><img src="../images/linkden.png" alt="LinkedIn"></a>
+            <a href="#"><img src="../images/instagram1.png" alt="Instagram" width="600px;"></a>
           </div>
         </div>
-    
-        <div class="footer-bottom">
-          <p>Copyright © 2022 Avi Yansah</p>
+        
+  
+        <div class="footer-section">
+          <h3>Plan Events</h3>
+        <p><a href="#">Create and Set Up</a></p>  
+          <p><a href="#">Sell Tickets</a></p>
+          <p><a href="#">Online RSVP</a></p>
+          <p><a href="#">Online Events</a></p>
+          
         </div>
-      </footer>
+  
+        <div class="footer-section">
+          <h3>Eventick</h3>
+          <p><a href="#">About Us</a></p>
+         <p><a href="#">Press</a></p> 
+         <p><a href="#">Contact Us</a></p> 
+         <p><a href="#">Help Center</a></p> 
+         <p><a href="#">How it Works</a></p> 
+         <p><a href="#">Privacy</a></p> 
+         <p><a href="#">Terms</a></p> 
+         
+        </div>
+  
+        <div class="footer-section">
+          <h3>Stay In The Loop</h3>
+          <p style="margin-right:27px;">Join our mailing list to stay in the loop with our newest for Event and concert</p>
+          <form action="#">
+            <input type="email" placeholder="Enter your email address.." required style="width:400px; height: 30px;">
+            <button style="width:300px; position: relative; right:40px;height: 50px;" type="submit">Subscribe Now</button>
+          </form>
+        </div>
+      </div>
+  
+      <div class="footer-bottom">
+        <p>Copyright © 2022 Avi Yansah</p>
+      </div>
+    </footer>
+     
 
 </body>
 </html>
