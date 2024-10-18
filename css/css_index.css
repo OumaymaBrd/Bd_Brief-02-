@@ -249,10 +249,10 @@
     
     /* Carte événement */
     .event-card {
-              width: 290px;
-              height: 335px;
+              width: 299px;
+              height: 342px;
               background-color: white;
-              border-radius: mixed; 
+              border-radius: 25px; 
               overflow: hidden;
               box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
               transition: transform 0.3s, box-shadow 0.3s;
@@ -280,9 +280,10 @@
     .event-date {
       display: block;
       font-weight: bold;
-      color: #6c63ff; /* Couleur du texte de la date */
+      /* color: #6c63ff; Couleur du texte de la date */
       margin-bottom: 5px;
       font-size: 0.9rem;
+      color:#3D37F1; font-weight: bold; font-family: 'DM Sans', sans-serif; font-size: 18px;
     }
     
     /* Titre de l'événement */
@@ -339,11 +340,11 @@
     font-weight: 700; /* Semble être en gras */
     font-size: 24px; /* Ajuster si besoin */
       color:#242565;
-      margin: 0;
+    margin: 0;
     padding: 0;
     text-align: left;
     position: relative;
-    left:40%;
+    left:50%;
     top:38%;
   
   }
@@ -496,4 +497,61 @@
   
   .search-field select {
     cursor: pointer;
+  }
+
+  .font_card{
+    position: relative; left:25px;
+  }
+  .font_card_p{
+    position: relative; left:25px; bottom:3px;
+  }
+
+  /*  */
+  .custom-select {
+    position: relative;
+    width: 160px;
+  }
+  
+  .custom-select select {
+    width: 100%;
+    padding: 13px 22px;
+    border-radius: 25px;
+    background-color: #e0e7ff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border: none;
+    color: #1D275F;
+    font-size: 16px;
+    /* /* eleminer le stylepar defaut de select option  /* */
+    appearance: none; 
+    
+  }
+  
+  
+  .custom-select::after {
+    content: '▼'; 
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: #1a2e66;
+    pointer-events: none; /* Empêche d'interagir avec la flèche */
+  }
+
+  /*  */
+
+  .select{
+    position:relative; top:50px; left:230px;width: 200px; 
+       height:38px; border:solid white;
+       
+       border-radius: 25px;
+  background-color: #e0e7ff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border: none;
+  color: #1D275F;
+  font-size: 16px;
+  }
+
+  #id{
+    position:relative; top:50px; left:230px;width: 168px; height:38px; border:solid white;
   }
