@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 230px;
+    
+    
+}
+
+/* Style du bloc de texte */
+.text-box {
+    background-color: #7874d1; /* Fond violet */
+    padding: 20px;
+    border-radius: 15px; /* Coins arrondis */
+    max-width: 600px; /* Largeur maximale */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+}
+
+.text-box p {
+    color: black;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: bold;
+}
