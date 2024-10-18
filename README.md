@@ -3,6 +3,7 @@ Récapitulatif du Brief 02 : Développement de la Maquette HTML/CSS pour Eventif
 Ce projet concerne la création d'une maquette HTML/CSS pour Eventify, une plateforme de billetterie événementielle, comprenant quatre pages principales : Home, Speakers, About et Login.
 
 Étapes du Projet :
+
           1.Étude de Projet :
 J'ai commencé par une analyse approfondie du projet afin de bien comprendre les exigences et les fonctionnalités attendues de la plateforme.
       
