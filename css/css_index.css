@@ -344,7 +344,7 @@
     padding: 0;
     text-align: left;
     position: relative;
-    left:50%;
+    left:48%;
     top:38%;
   
   }
@@ -485,7 +485,7 @@
   
   .search-field input,
   .search-field select {
-    background-color: #1a1e58;
+    background-color: transparent;
     border: none;
     border-bottom: 1px solid #ccc;
     color: white;
@@ -555,3 +555,11 @@
   #id{
     position:relative; top:50px; left:230px;width: 168px; height:38px; border:solid white;
   }
+
+  /* style_derniere_card */
+
+  .st_h4{
+    position:relative; bottom:8px; top:-18px; color:#242565; font-family: 'DM Sans', sans-serif;
+  }
+
+  

@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  background-color: #0a0b4b; /* Couleur de fond similaire */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.subscribe-container {
+  display: flex;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-container input {
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  width:200px;
+  outline: none;
+  border-radius: 50px 0 0 50px;
+}
+
+.subscribe-container input::placeholder {
+  color: #b0b0b0;
+}
+
+.subscribe-container button {
+  background-color: #ff2d75;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px 50px 50px 50px;
+  transition: background-color 0.3s;
+}
+
+.subscribe-container button:hover {
+  background-color: #e02465;
+}
+
+    </style>
+</head>
+<div class="subscribe-container">
+    <input type="email" placeholder="Enter your email address.." />
+    <button style="position: relative; right:20px;">Subscribe Now</button>
+  </div>
+  
+<body>
+    
+</body>
+</html>
