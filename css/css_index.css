@@ -564,4 +564,9 @@
     position:relative; bottom:8px; top:-18px; color:#242565; font-family: 'DM Sans', sans-serif;
   }
 
+   .inp::placeholder {
+    color: white;
+    font-weight: 13px;
+   
+}
   
